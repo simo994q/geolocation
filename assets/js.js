@@ -22,5 +22,5 @@ function showPosition(position) {
 function showData (myData) {
     console.log(myData);
     let address = myData.address
-    pos.innerText = `Din addresse er ${address.road} ${address.house_number}, ${address.village} ${address.postcode}`
+    pos.innerText = `Din addresse er ${address.road} ${address.house_number}, ${address.city} ${address.postcode}`
 };
